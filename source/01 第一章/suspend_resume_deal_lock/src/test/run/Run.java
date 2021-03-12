@@ -24,9 +24,9 @@ public class Run {
 				@Override
 				public void run() {
 					System.out
-							.println("thread2启动了，但进入不了printString()方法！只打印1个begin");
+							.println("thread2鍚姩浜嗭紝浣嗚繘鍏ヤ笉浜唒rintString()鏂规硶锛佸彧鎵撳嵃1涓猙egin");
 					System.out
-							.println("因为printString()方法被a线程锁定并且永远的suspend暂停了！");
+							.println("鍥犱负printString()鏂规硶琚玜绾跨▼閿佸畾骞朵笖姘歌繙鐨剆uspend鏆傚仠浜嗭紒");
 					object.printString();
 				}
 			};

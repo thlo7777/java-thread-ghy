@@ -11,7 +11,7 @@ public class MyThread extends Thread {
 			count = count + (i + 1);
 		}
 		long endTime = System.currentTimeMillis();
-		System.out.println("ÓÃÊ±£º" + (endTime - beginTime) + "ºÁÃë£¡");
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - beginTime) + "æ¯«ç§’ï¼");
 	}
 
 }

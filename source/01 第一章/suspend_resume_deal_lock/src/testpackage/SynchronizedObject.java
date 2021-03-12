@@ -5,7 +5,7 @@ public class SynchronizedObject {
 	synchronized public void printString() {
 		System.out.println("begin");
 		if (Thread.currentThread().getName().equals("a")) {
-			System.out.println("aÏß³ÌÓÀÔ¶ suspendÁË£¡");
+			System.out.println("açº¿ç¨‹æ°¸è¿œ suspendäº†ï¼");
 			Thread.currentThread().suspend();
 		}
 		System.out.println("end");
