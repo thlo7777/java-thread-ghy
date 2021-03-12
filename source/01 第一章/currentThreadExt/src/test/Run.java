@@ -9,6 +9,7 @@ public class Run {
 		Thread t1 = new Thread(c);
 		t1.setName("A");
 		t1.start();
+		System.out.println("It's OK");
 	}
 
 }

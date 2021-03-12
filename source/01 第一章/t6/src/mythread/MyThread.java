@@ -3,12 +3,12 @@ package mythread;
 public class MyThread extends Thread {
 
 	public MyThread() {
-		System.out.println("¹¹Ôì·½·¨µÄ´òÓ¡£º" + Thread.currentThread().getName());
+		System.out.println("æ„é€ æ–¹æ³•çš„æ‰“å°ï¼š" + Thread.currentThread().getName());
 	}
 
 	@Override
 	public void run() {
-		System.out.println("run·½·¨µÄ´òÓ¡£º" + Thread.currentThread().getName());
+		System.out.println("runæ–¹æ³•çš„æ‰“å°ï¼š" + Thread.currentThread().getName());
 	}
 
 }
