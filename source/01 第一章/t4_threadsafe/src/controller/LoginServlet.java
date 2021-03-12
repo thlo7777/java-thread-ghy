@@ -1,6 +1,6 @@
 package controller;
 
-//本类模拟成一个Servlet组件
+//鏈被妯℃嫙鎴愪竴涓猄ervlet缁勪欢
 public class LoginServlet {
 
 	private static String usernameRef;
