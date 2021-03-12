@@ -3,6 +3,6 @@ package myrunnable;
 public class MyRunnable implements Runnable {
 	@Override
 	public void run() {
-		System.out.println("ÔËĞĞÖĞ!");
+		System.out.println("è¿è¡Œä¸­!");
 	}
 }
