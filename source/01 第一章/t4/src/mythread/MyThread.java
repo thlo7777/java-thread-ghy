@@ -5,9 +5,10 @@ public class MyThread extends Thread {
 	private int count=5;
 	
 	@Override
+	//synchronized public void run() {
 	synchronized public void run() {
 		super.run();
 			count--;
-			System.out.println("ÓÉ "+this.currentThread().getName()+" ¼ÆËã£¬count="+count);
+			System.out.println("ç”± "+this.currentThread().getName()+" è®¡ç®—ï¼Œcount="+count);
 	}
 }
