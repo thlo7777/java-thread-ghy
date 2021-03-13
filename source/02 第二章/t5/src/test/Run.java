@@ -33,6 +33,6 @@ public class Run {
 			endTime = CommonUtils.endTime2;
 		}
 
-		System.out.println("ºÄÊ±£º" + ((endTime - beginTime) / 1000));
+		System.out.println("è€—æ—¶ï¼š" + ((endTime - beginTime) / 1000));
 	}
 }

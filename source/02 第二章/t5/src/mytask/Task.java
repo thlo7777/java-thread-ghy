@@ -11,9 +11,9 @@ public class Task {
 		try {
 			System.out.println("begin task");
 			Thread.sleep(3000);
-			getData1 = "³¤Ê±¼ä´¦ÀíÈÎÎñºó´ÓÔ¶³Ì·µ»ØµÄÖµ1 threadName="
+			getData1 = "é•¿æ—¶é—´å¤„ç†ä»»åŠ¡åä»è¿œç¨‹è¿”å›çš„å€¼1 threadName="
 					+ Thread.currentThread().getName();
-			getData2 = "³¤Ê±¼ä´¦ÀíÈÎÎñºó´ÓÔ¶³Ì·µ»ØµÄÖµ2 threadName="
+			getData2 = "é•¿æ—¶é—´å¤„ç†ä»»åŠ¡åä»è¿œç¨‹è¿”å›çš„å€¼2 threadName="
 					+ Thread.currentThread().getName();
 			System.out.println(getData1);
 			System.out.println(getData2);
