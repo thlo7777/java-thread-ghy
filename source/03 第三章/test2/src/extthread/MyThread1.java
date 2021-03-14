@@ -12,9 +12,9 @@ public class MyThread1 extends Thread {
 	public void run() {
 		try {
 			synchronized (lock) {
-				System.out.println("¿ªÊ¼      wait time=" + System.currentTimeMillis());
+				System.out.println("å¼€å§‹      wait time=" + System.currentTimeMillis());
 				lock.wait();
-				System.out.println("½áÊø      wait time=" + System.currentTimeMillis());
+				System.out.println("ç»“æŸ      wait time=" + System.currentTimeMillis());
 			}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

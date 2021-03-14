@@ -5,13 +5,13 @@ public class Test2 {
 	public static void main(String[] args) {
 		try {
 			String lock = new String();
-			System.out.println("synÉÏÃæ");
+			System.out.println("synä¸Šé¢");
 			synchronized (lock) {
-				System.out.println("synµÚÒ»ĞĞ");
+				System.out.println("synç¬¬ä¸€è¡Œ");
 				lock.wait();
-				System.out.println("waitÏÂµÄ´úÂë£¡");
+				System.out.println("waitä¸‹çš„ä»£ç ï¼");
 			}
-			System.out.println("synÏÂÃæµÄ´úÂë");
+			System.out.println("synä¸‹é¢çš„ä»£ç ");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

@@ -7,7 +7,7 @@ public class Run {
 	public static void main(String[] args) {
 		PrintString printStringService = new PrintString();
 		printStringService.printStringMethod();
-		System.out.println("ÎÒÒªÍ£Ö¹Ëü£¡stopThread="
+		System.out.println("æˆ‘è¦åœæ­¢å®ƒï¼stopThread="
 				+ Thread.currentThread().getName());
 		printStringService.setContinuePrint(false);
 	}
