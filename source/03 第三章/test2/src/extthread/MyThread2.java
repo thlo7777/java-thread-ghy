@@ -11,9 +11,9 @@ public class MyThread2 extends Thread {
 	@Override
 	public void run() {
 		synchronized (lock) {
-			System.out.println("¿ªÊ¼notify time=" + System.currentTimeMillis());
+			System.out.println("å¼€å§‹notify time=" + System.currentTimeMillis());
 			lock.notify();
-			System.out.println("½áÊønotify time=" + System.currentTimeMillis());
+			System.out.println("ç»“æŸnotify time=" + System.currentTimeMillis());
 		}
 	}
 }
